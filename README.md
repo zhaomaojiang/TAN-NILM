@@ -100,13 +100,13 @@ DataLoader.remove_abnormal_data():
 
 ……
 
-        `mix_data = np.reshape(mix_data, (-1, 1))  # todo: for windows`
+        mix_data = np.reshape(mix_data, (-1, 1))  # todo: for windows
         
-        `# mix_data = np.reshape(mix_data.to_numpy(), (-1, 1))  # for linux`
+        # mix_data = np.reshape(mix_data.to_numpy(), (-1, 1))  # for linux
         
-        `app_data = np.reshape(app_data, (-1, 1))  # todo: for windows`
+        app_data = np.reshape(app_data, (-1, 1))  # todo: for windows
         
-        `# app_data = np.reshape(app_data.to_numpy(), (-1, 1))  # for linux`
+        # app_data = np.reshape(app_data.to_numpy(), (-1, 1))  # for linux
         
 ……
 
