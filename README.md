@@ -26,9 +26,11 @@ Required dependencies:
 -   `pandas==2.0.3`
 
 You can install the dependencies directly using pip:
+
 `pip install -r requirements.txt` 
 
 Alternatively, you can create the environment precisely using Conda (a reliable network connection is required):
+
 `conda env create -f environment.yml` 
 
 ## Downloading the Dataset
