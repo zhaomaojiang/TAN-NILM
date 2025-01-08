@@ -1,6 +1,6 @@
 
 # TAN-NILM
-**GitHub Repository Address:** [https://github.com/zhaomaojiang/TAN-NILM](https://github.com/zhaomaojiang/TAN-NILM)
+**GitHub Repository Address:** [https://github.com/zhaomaojiang/TAN-NILM](https://github.com/zhaomaojiang/TAN-NILM) If you have any questions, feel free to contact us at our email address: 1552751108@qq.com.
 
 ## File Introduction
 -   `/check_appliance` stores the model parameters during the training process for each appliance.
@@ -109,5 +109,3 @@ DataLoader.remove_abnormal_data():
         # app_data = np.reshape(app_data.to_numpy(), (-1, 1))  # for linux
         
 ……
-
-2. If you have any questions, feel free to contact us at our email address: 1552751108@qq.com.
