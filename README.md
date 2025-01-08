@@ -97,10 +97,17 @@ This step allows you to train or test the models for the corresponding appliance
 1. There is a difference between linux and windws for data processing in 'DataSet'.  
 
 DataLoader.remove_abnormal_data():
+
 ……
+
         `mix_data = np.reshape(mix_data, (-1, 1))  # todo: for windows`
+        
         `# mix_data = np.reshape(mix_data.to_numpy(), (-1, 1))  # for linux`
+        
         `app_data = np.reshape(app_data, (-1, 1))  # todo: for windows`
+        
         `# app_data = np.reshape(app_data.to_numpy(), (-1, 1))  # for linux`
+        
 ……
+
 2. If you have any questions, feel free to contact us at our email address: 1552751108@qq.com.
