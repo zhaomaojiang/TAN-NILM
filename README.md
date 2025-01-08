@@ -52,7 +52,7 @@ This step converts the original CSV data format for each house into various file
 ### Step 2: Generate Signatures
 Run:
 
-`cd ./data/REFIT_dataset`  or `cd ..`
+`cd ./data/REFIT_dataset`  or `cd .`
 
 `python gen_activations.py` 
 
