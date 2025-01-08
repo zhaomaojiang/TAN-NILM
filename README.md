@@ -53,6 +53,7 @@ Run:
 `cd ./data/REFIT_dataset`  or `cd ..`
 
 `python gen_activations.py` 
+
 This step generates the signature required for Step 3.
 
 ### Step 3: Generate Dataset
@@ -67,6 +68,7 @@ This step generates training and testing data, storing all data in a single pick
 Run:
 
 `python save_dataset_by_batch.py` 
+
 To reduce memory usage, this step splits the dataset into batches and stores them.
 
 ### Step 5: Train or Test the Model
@@ -74,13 +76,17 @@ To reduce memory usage, this step splits the dataset into batches and stores the
 Run:
 
 `cd ..` to return to the root directory.
+
 then
+
 `python ./train_appliance.py` 
 
 or
 
 `cd ..` to return to the root directory.
+
 then
+
 `python ./test_appliance.py` 
 
 This step allows you to train or test the models for the corresponding appliances.
