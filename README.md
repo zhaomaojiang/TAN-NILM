@@ -49,12 +49,14 @@ This step converts the original CSV data format for each house into various file
 ### Step 2: Generate Signatures
 Run:
 `cd ./data/REFIT_dataset`  or `cd ..`
+
 `python gen_activations.py` 
 This step generates the signature required for Step 3.
 
 ### Step 3: Generate Dataset
 Run:
 `python gen_dataset_by_activations.py` 
+
 This step generates training and testing data, storing all data in a single pickle file.
 
 ### Step 4: Save Dataset in Batches
@@ -69,6 +71,7 @@ Run:
 `cd ..` to return to the root directory.
 then
 `python ./train_appliance.py` 
+
 or
 `cd ..` to return to the root directory.
 then
