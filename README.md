@@ -41,6 +41,7 @@ Extract the contents to the `./data/REFIT_dataset/REFIT/` directory.
 
 ### Step 1: Process the Original Data
 Run:
+
 `cd ./data/REFIT_dataset/REFIT`
 `python demo.py` 
 
@@ -48,6 +49,7 @@ This step converts the original CSV data format for each house into various file
 
 ### Step 2: Generate Signatures
 Run:
+
 `cd ./data/REFIT_dataset`  or `cd ..`
 
 `python gen_activations.py` 
@@ -55,6 +57,7 @@ This step generates the signature required for Step 3.
 
 ### Step 3: Generate Dataset
 Run:
+
 `python gen_dataset_by_activations.py` 
 
 This step generates training and testing data, storing all data in a single pickle file.
@@ -62,17 +65,20 @@ This step generates training and testing data, storing all data in a single pick
 ### Step 4: Save Dataset in Batches
 
 Run:
+
 `python save_dataset_by_batch.py` 
 To reduce memory usage, this step splits the dataset into batches and stores them.
 
 ### Step 5: Train or Test the Model
 
 Run:
+
 `cd ..` to return to the root directory.
 then
 `python ./train_appliance.py` 
 
 or
+
 `cd ..` to return to the root directory.
 then
 `python ./test_appliance.py` 
