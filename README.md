@@ -27,7 +27,7 @@ Required dependencies:
 
 You can install the dependencies directly using pip:
 
-`pip install -r requirements.txt` 
+`pip install -r environment.txt` 
 
 Alternatively, you can create the environment precisely using Conda (a reliable network connection is required):
 
