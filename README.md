@@ -94,7 +94,7 @@ then
 This step allows you to train or test the models for the corresponding appliances.
 
 # Other Tips
-1. There is a difference between linux and windws for data processing in 'DataSet'.  
+There is a difference between linux and windws for data processing in 'DataSet'.  
 
 DataLoader.remove_abnormal_data():
 
