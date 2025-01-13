@@ -4,7 +4,7 @@ This repository contains the PyTorch code for the paper:
 
 "[1] Song Chen, Maojiang Zhao, Zuqiang Xiong, Zhemin Bai, Yu Yang, Targeted Adaptive Non-Intrusive Load Monitoring, IEEE International Instrumentation and Measurement Technology Conference (I2MTC), 2024
 
-[2] Maojiang Zhao, Song Chen, Zuqiang Xiong, Zhemin Bai Yu Yang, IEEE Transactions on Instrumentation and Measurement (accepted) "
+[2] Maojiang Zhao, Song Chen, Zuqiang Xiong, Zhemin Bai, Yu Yang, IEEE Transactions on Instrumentation and Measurement (accepted) "
 
 **GitHub Repository Address:** [https://github.com/zhaomaojiang/TAN-NILM](https://github.com/zhaomaojiang/TAN-NILM) 
 
