@@ -53,6 +53,7 @@ This step converts the original CSV data format for each house into various file
 Run:
 
 `cd .` to return to ./data/REFIT_dataset
+
 Run:
 
 `python gen_activations.py` 
