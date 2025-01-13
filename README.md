@@ -1,5 +1,10 @@
 
 # TAN-NILM
+This repository contains the PyTorch code for the paper:
+"[1] Song Chen, Maojiang Zhao, Zuqiang Xiong, Zhemin Bai, Yu Yang, Targeted Adaptive Non-Intrusive Load Monitoring, IEEE International Instrumentation and Measurement Technology Conference (I2MTC), 2024
+
+[2] Maojiang Zhao, Song Chen, Zuqiang Xiong, Zhemin Bai Yu Yang, IEEE Transactions on Instrumentation and Measurement (accepted) "
+
 **GitHub Repository Address:** [https://github.com/zhaomaojiang/TAN-NILM](https://github.com/zhaomaojiang/TAN-NILM) 
 
 If you have any questions, feel free to contact us at our email address: 1552751108@qq.com.
@@ -96,6 +101,10 @@ then
 `python ./test_appliance.py` 
 
 This step allows you to train or test the models for the corresponding appliances.
+
+# Citation
+If you find this code useful, please cite:
+S. Chen, M. Zhao, Z. Xiong, Z. Bai and Y. Yang, "Targeted Adaptive Non-Intrusive Load Monitoring", 2024 IEEE International Instrumentation and Measurement Technology Conference (I2MTC), Glasgow, United Kingdom, 2024, pp. 1-6, doi: 10.1109/I2MTC60896.2024.10560577.
 
 # Other Tips
 There is a difference between linux and windws for data processing in 'DataSet'.  
