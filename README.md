@@ -106,7 +106,7 @@ This step allows you to train or test the models for the corresponding appliance
 # Citation
 If you find this code useful, please cite:
 
-[1] S. Chen, M. Zhao, Z. Xiong, Z. Bai and Y. Yang, Targeted Adaptive Non-Intrusive Load Monitoring, 2024 IEEE International Instrumentation and Measurement Technology Conference (I2MTC), Glasgow, United Kingdom, 2024, pp. 1-6, doi: 10.1109/I2MTC60896.2024.10560577.
+[1] Song Chen, Maojiang Zhao, Zuqiang Xiong, Zhemin Bai and Yu Yang, Targeted Adaptive Non-Intrusive Load Monitoring, 2024 IEEE International Instrumentation and Measurement Technology Conference (I2MTC), Glasgow, United Kingdom, 2024, pp. 1-6, doi: 10.1109/I2MTC60896.2024.10560577.
 
 # Other Tips
 In our environment version, there is a difference between linux and windows for data processing in 'DataSet'.  
