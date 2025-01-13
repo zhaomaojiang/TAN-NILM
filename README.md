@@ -8,7 +8,7 @@ This repository contains the PyTorch code for the paper:
 
 **GitHub Repository Address:** [https://github.com/zhaomaojiang/TAN-NILM](https://github.com/zhaomaojiang/TAN-NILM) 
 
-If you have any questions, feel free to contact us at our email address: 1552751108@qq.com.
+If you have any question, feel free to contact us at our email address: 1552751108@qq.com.
 
 ## File Introduction
 -   `/check_appliance` stores the model parameters during the training process for each appliance.
