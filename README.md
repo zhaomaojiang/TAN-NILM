@@ -58,7 +58,7 @@ Run:
 
 `python gen_activations.py` 
 
-This step generates the signature required for Step 3.
+This step generates the signatures(named act.pickle) required for Step 3.
 
 ### Step 3: Generate Dataset
 Run:
