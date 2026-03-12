@@ -8,11 +8,11 @@ sample_time = 8  # Time interval for resampling (unit: seconds),UKDale-6,REFIT-8
 """For REDD and UKDale, all of our electrical appliances are the same for training houses and test houses, 
 but for REFIT, the current research test houses, It is almost not the same for different appliances, 
 so here we need a dictionary to refer to the experiment that β-VAE did in REFIT"""
-bVAE_dict = {'fridge': ['house_5', 'house_15', 'house_20'],
-             'microwave': ['house_20', 'house_4', 'house_5'],
-             'kettle': ['house_20', 'house_2', 'house_5'],
-             'dishwasher': ['house_2', 'house_20', 'house_5'],
-             'washingmachine':['house_9', 'house_8', 'house_20']}
+bVAE_dict = {'fridge': ['house_5', 'house_15', 'house_2'],
+             'microwave': ['house_19', 'house_4', 'house_10'],
+             'kettle': ['house_20', 'house_2', 'house_3'],
+             'dishwasher': ['house_5', 'house_20', 'house_11'],
+             'washingmachine':['house_9', 'house_8', 'house_15']}
 
 """was_appliance('was': window_length_and_stride): The corresponding split window length 
 and step size parameters for each appliance"""
